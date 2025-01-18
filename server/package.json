@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"nodemon deleteCartItem.js\" \"nodemon fetchIngredients.js\" \"nodemon fetchPizzas.js\" \"nodemon fetchShoppingCartItems.js\" \"nodemon insertPizzaToShoppingCart.js\""
   },
   "author": "mohd anas",
   "license": "ISC",
@@ -15,5 +16,8 @@
     "express": "^4.19.2",
     "mongodb": "^4.8.1",
     "mongoose": "^8.2.3"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
   }
 }

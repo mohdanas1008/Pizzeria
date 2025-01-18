@@ -2,7 +2,6 @@ var connectionObj = require("./dbConnection").connect;
 
 var pizzasArray = require("./assets/Sample json/pizza.json");
 var ingredientsArray = require("./assets/Sample json/ingredients.json");
-// console.log(pizzas);
 usersArray = [
     {
       _id: 101,
