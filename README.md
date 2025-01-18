@@ -21,6 +21,8 @@ This project consists of three main web pages:
 2. **Create Your Own Pizza:** Allows users to build their custom pizza by selecting different toppings. Once the pizza is created, users can proceed to the checkout.
 3. **Checkout Page:** Displays the order summary, including the pizza base, selected toppings, and the total price. Users can finalize their purchase from this page.
 
+   **Note:** Stay tuned for upcoming improvements and new features coming soon!
+
 ## Features
 
 - **Customizable Pizzas:** Users can create their own pizza by selecting from a variety of toppings.
